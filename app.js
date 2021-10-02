@@ -12,6 +12,7 @@ const aes = require('./routes/aes');
 const blowfish = require('./routes/blowfish');
 const rsa = require('./routes/rsa');
 const twofish = require('./routes/twofish');
+const bacon = require('./routes/bacon');
 
 const app = express();
 
@@ -35,6 +36,7 @@ app.use('/aes', aes);
 app.use('/blowfish', blowfish);
 app.use('/rsa', rsa);
 app.use('/twofish', twofish);
+app.use('/bacon', bacon);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -3,3 +3,4 @@ module.exports.aes = require("./lib/aes");
 module.exports.blowfish = require("./lib/blowfish");
 module.exports.rsa = require("./lib/rsa");
 module.exports.twofish = require("./lib/twofish");
+module.exports.bacon = require("./lib/bacon");
